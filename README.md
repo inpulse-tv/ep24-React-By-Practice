@@ -22,22 +22,30 @@ Depuis un terminal Shell ouvert depuis le dossier de destination, exécutez les 
 
 Vous aurez besoin d'installer une version de [Node.js](https://nodejs.org) pour exécuter les commandes Shell suivantes.
 
-### `npm start`
+```shell
+npm start
+```
 
 Lance le site Web en mode développement.\
 Ouvre automatiquement l'adresse [http://localhost:9000](http://localhost:9000) dans un navigateur et lance un process en arrière plan qui permet l'édition à chaud des fichiers JavaScript et LESS.
 
-### `npm run build`
+```shell
+npm run build
+```
 
 Génère l'application pour un environnement de production.\
 Les sources sont récupérables dans le dossier `build`.
 
-### `npm run eject`
+```shell
+npm run eject
+```
 
 Décompile le projet vous permettant d'éditer par exemple les fichiers de configuration de Webpack ou Babel.\
 C'est une opération à sens unique. Une fois l'éjection faite vous ne pourrez plus revenir en arrière. Utile si vous souhaitez customiser d'avantage votre environnement de développement.
 
 ## API
 
-Le site Web utilise l'API fournie dans l'épisode dédié à Node.js que vous pouvez retrouver à cette adresse :
+Le site Web utilise l'API fournie dans l'épisode dédié à Node.js, que vous pouvez retrouver à cette adresse :
 https://github.com/inpulse-tv/ep17-Fullstack-with-NodeJS
+
+Bonne installation et à bientôt sur [inpulse.tv](https://inpulse.tv).
