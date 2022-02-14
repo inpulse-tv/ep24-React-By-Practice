@@ -1,20 +1,20 @@
 export interface IDataRow {
-    jour: number;
-    Nom: string;
-    Description: string;
-    Vegan: boolean;
+  jour: number;
+  Nom: string;
+  Description: string;
+  Vegan: boolean;
 }
 
 function api() {
-    const getEntreesDuJour = () => {
-      return fetch("http://localhost:8000/api/entreesdujour", {
-        method: "GET",
-      }).then((res) => res.json());
-    };
+  const getEntreesDuJour = () => {
+    return fetch("http://localhost:8000/api/entreesdujour", {
+      method: "GET",
+    }).then((res) => res.json());
+  };
 
-    return {
-      getEntreesDuJour,
-    };
-  }
+  return {
+    getEntreesDuJour,
+  };
+}
 
-  export default api();
+export default api();
