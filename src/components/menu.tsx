@@ -8,15 +8,15 @@ interface IProps {
 }
 
 const Menu = (props: IProps) => {
-  const [isActive, setActive] = useState(props.selected);
+  const [curIndex, setCurIndex] = useState(props.selected);
 
   const handleToggle = (index: number) => {
-    setActive(index);
+    setCurIndex(index);
   };
 
   const liElm = props.data.map((label, index) => (
     <li
-      className={isActive === index ? "activated" : undefined}
+      className={curIndex === index ? "activated" : undefined}
       key={index}
       onClick={() => {
         handleToggle(index);
