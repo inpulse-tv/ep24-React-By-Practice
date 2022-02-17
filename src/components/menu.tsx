@@ -4,7 +4,7 @@ interface IProps {
   data: string[];
   selected?: number;
   className?: string;
-  onClick?: (regime: number) => {} | void;
+  onClick?: (index: number) => {} | void;
 }
 
 const Menu = (props: IProps) => {
