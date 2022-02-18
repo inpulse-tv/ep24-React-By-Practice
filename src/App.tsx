@@ -12,18 +12,18 @@ function App() {
   const [entreesDujour, setEntreeDujour] = useState([] as IDataRow[]);
   const [isMounted, setIsMounted] = useState(false);
 
-  const handleRegimeClick = (regime: number) => {
-    setRegime(regime);
+  const handleRegimeClick = (index: number) => {
+    setRegime(index);
     const bg = ["bg-vegan", "bg-viandard-sensible", "bg-pas-vegan"];
-    setBgClass(bg[regime]);
+    setBgClass(bg[index]);
   };
 
-  const handleFormuleClick = (formule: number) => {
-    setFormule(formule);
+  const handleFormuleClick = (index: number) => {
+    setFormule(index);
   };
 
-  const handleFacturationClick = (facturation: number) => {
-    setFacturation(facturation);
+  const handleFacturationClick = (index: number) => {
+    setFacturation(index);
   };
 
   useEffect(() => {
