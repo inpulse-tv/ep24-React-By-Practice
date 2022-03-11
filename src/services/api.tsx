@@ -6,7 +6,7 @@ export interface IDataRow {
 }
 
 const api = () => {
-  const getEntreesDuJour = () => {
+  const getEntreesDuJour = (): Promise<IDataRow[]> => {
     return fetch("http://localhost:8000/api/entreesdujour", {
       method: "GET",
     }).then((res) => res.json());
@@ -15,6 +15,6 @@ const api = () => {
   return {
     getEntreesDuJour,
   };
-}
+};
 
 export default api();

@@ -28,7 +28,7 @@ function App() {
 
   useEffect(() => {
     !isMounted &&
-      api.getEntreesDuJour().then((json: IDataRow[]) => {
+      api.getEntreesDuJour().then((json) => {
         setEntreeDujour(json);
         setIsMounted(true);
       });
