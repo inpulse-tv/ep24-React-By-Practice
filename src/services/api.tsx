@@ -5,7 +5,7 @@ export interface IDataRow {
   Vegan: boolean;
 }
 
-function api() {
+const api = () => {
   const getEntreesDuJour = () => {
     return fetch("http://localhost:8000/api/entreesdujour", {
       method: "GET",

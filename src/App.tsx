@@ -27,11 +27,11 @@ function App() {
   };
 
   useEffect(() => {
-    !isMounted && api.getEntreesDuJour().then((json: IDataRow[]) => {
+    !isMounted &&
+      api.getEntreesDuJour().then((json: IDataRow[]) => {
         setEntreeDujour(json);
         setIsMounted(true);
-      }
-    );
+      });
   }, [isMounted]);
 
   return (
