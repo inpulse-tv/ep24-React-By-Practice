@@ -1,8 +1,8 @@
 # React par la pratique
 
-Ce dépôt contient le code source relatif à l'épisode X de notre chaîne [inpulse.tv](https://www.inpulse.tv) dédié à la bibliothèque JavaScript **React.js** :
+Ce dépôt contient le code source relatif à l'épisode 24 de notre chaîne [inpulse.tv](https://www.inpulse.tv) dédié à la bibliothèque JavaScript **React.js** :
 
-- [React par la pratique  - [JavaScript]  [1ntro]  [#devtech]  [ep.X]] (Episode bientôt disponible)
+- [React par la pratique  - [JavaScript]  [1ntro]  [#devtech]  [ep.X]](https://youtu.be/ClztBAyhZs4)
 
 Le projet est une transposition du site Web [sandwichpouletmayonnaise.com](https://sandwichpouletmayonnaise.com) développé en PHP et Vanilla JavaScript sous la librairie React. Il aborde différents concepts comme la modularité, les appels API, les hooks et l'utilisation du JSX.
 
