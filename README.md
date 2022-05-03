@@ -13,7 +13,7 @@ L'application a été initialisée à l'aide de l'outil [Create React App](https
 Clonez le dépôt sur votre poste à l'aide de la commande suivante :
 
 ```shell
-git clone https://github.com/labs-ingeniance/ep24-React-By-Practice.git
+git clone https://github.com/inpulse-tv/ep24-React-By-Practice.git
 ```
 
 Depuis un terminal Shell ouvert depuis le dossier de destination, exécutez les commandes suivantes pour lancer le site Web.
